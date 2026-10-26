@@ -1,0 +1,113 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Cardiologist",
+      "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+      "qualifications": "MBBS, MD Cardiology",
+      "address": "Apollo Clinic, Bengaluru",
+      "fee": 800,
+      "rating": 4.8,
+      "bio": "Experienced cardiologist providing heart care and consultation.",
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
+      "workingHours": "10:00 AM - 5:00 PM",
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Dr. Rahul Verma",
+      "specialty": "Dermatologist",
+      "photo": "https://randomuser.me/api/portraits/men/75.jpg",
+      "qualifications": "MBBS, MD Dermatology",
+      "address": "City Care Clinic, Bengaluru",
+      "fee": 600,
+      "rating": 4.6,
+      "bio": "Provides consultations for common skin and hair concerns.",
+      "workingDays": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "workingHours": "11:00 AM - 4:00 PM",
+      "available": true
+    },
+    {
+      "id": "3",
+      "name": "Dr. Amit Patel",
+      "specialty": "General Physician",
+      "photo": "https://randomuser.me/api/portraits/men/75.jpg",
+      "qualifications": "MBBS, MD General Medicine",
+      "address": "Health First Clinic, Bengaluru",
+      "fee": 500,
+      "rating": 4.5,
+      "bio": "Provides general health consultations and routine checkups.",
+      "workingDays": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "workingHours": "9:00 AM - 2:00 PM",
+      "available": true
+    }
+  ],
+  "appointments": [
+    {
+      "patientName": "Sejal Rajput",
+      "age": "7",
+      "gender": "Female",
+      "phone": "6267608013",
+      "email": "sejal.r25@navgurukul.org",
+      "reason": "asdfghjkl;",
+      "id": "voDO4jbOuls",
+      "doctorId": "1",
+      "doctorName": "Dr. Priya Sharma",
+      "specialty": "Cardiologist",
+      "fee": 800,
+      "date": "2026-10-25",
+      "time": "12:00 PM",
+      "status": "Cancelled"
+    },
+    {
+      "patientName": "rani ",
+      "age": "12",
+      "gender": "Female",
+      "phone": "234567890",
+      "email": "sejal.r25@navgurukul.org",
+      "reason": "sddfghjncrcvjklm kjv ",
+      "id": "61mX6QfFk5I",
+      "doctorId": "2",
+      "doctorName": "Dr. Rahul Verma",
+      "specialty": "Dermatologist",
+      "fee": 600,
+      "date": "2026-10-26",
+      "time": "12:00 PM",
+      "status": "Cancelled"
+    },
+    {
+      "patientName": "asdfghgh",
+      "age": "2",
+      "gender": "Female",
+      "phone": "sdfghj",
+      "email": "sejal.r25@navgurukul.org",
+      "reason": "asfdghhj",
+      "id": "ux2XlHJySdg",
+      "doctorId": "2",
+      "doctorName": "Dr. Rahul Verma",
+      "specialty": "Dermatologist",
+      "fee": 600,
+      "date": "2026-10-26",
+      "time": "12:00 PM",
+      "status": "Cancelled"
+    }
+  ],
+  "blockedSlots": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
